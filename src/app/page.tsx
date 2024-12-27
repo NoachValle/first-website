@@ -1,7 +1,9 @@
 import Image from "next/image";
-
+import Frontpage from "../../Components/frontpage";
 export default function Home() {
   return (
-    <div>Hello this is my first public website</div>
+    <div className="flex justify-evenly items-center">
+      <Frontpage/>
+    </div>
   );
 }
